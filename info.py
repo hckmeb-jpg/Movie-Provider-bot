@@ -52,8 +52,8 @@ NO_RESULTS_MSG = bool(environ.get("NO_RESULTS_MSG", False)) # True if you want n
 # MongoDB information 
 # https://youtu.be/qFB0cFqiyOM?si=QGuFSZ7qhxl4VTrA
 
-DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://hckmeb_db_user:hckmeb@hckmeb.5wovwul.mongodb.net/?retryWrites=true&w=majority&appName=hckmeb")
-DATABASE_NAME = environ.get('DATABASE_NAME', "hckmeb")
+DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://hckmeb91:hckmeb91@cluster0.pycmhco.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
+DATABASE_NAME = environ.get('DATABASE_NAME', "hckmeb91")
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Telegram_files')
 
 # Verify/token system
